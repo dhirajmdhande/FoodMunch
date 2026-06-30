@@ -21,7 +21,7 @@ form.addEventListener('submit', (e) => {
         error_message.innerText = errors.join(". ")
     }
     else{
-        window.location.href="Food_website.html"
+        window.location.href="FoodMunchGithub.html"
     }
 })
 function getSignupFormErrors(firstname, email, password, repeatPassword){
